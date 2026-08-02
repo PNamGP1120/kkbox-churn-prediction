@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Dataset
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Models
+models/*
+
+# Test / lint cache
+.pytest_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
