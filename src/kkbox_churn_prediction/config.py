@@ -28,3 +28,25 @@ MIN_VALID_AGE = 1
 MAX_VALID_AGE = 100
 
 MAX_DAILY_LISTENING_SECS = 86_400
+
+MODELS_DIR = PROJECT_ROOT / "models"
+
+MODEL_SPLITS_PATH = PROCESSED_DIR / "model_splits.parquet"
+
+PREPROCESSOR_PATH = MODELS_DIR / "preprocessor.joblib"
+
+FEATURE_NAMES_PATH = MODELS_DIR / "preprocessed_feature_names.json"
+
+DUMMY_MODEL_PATH = MODELS_DIR / "dummy_classifier.joblib"
+
+LOGISTIC_MODEL_PATH = MODELS_DIR / "logistic_regression.joblib"
+
+RANDOM_FOREST_MODEL_PATH = MODELS_DIR / "random_forest.joblib"
+
+LIGHTGBM_MODEL_PATH = MODELS_DIR / "lightgbm.joblib"
+
+TRAINING_RESULTS_PATH = MODELS_DIR / "validation_results.json"
+
+TRAINING_METADATA_PATH = MODELS_DIR / "training_metadata.json"
+
+RANDOM_STATE = 42
