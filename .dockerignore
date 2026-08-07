@@ -1,0 +1,32 @@
+.git
+.gitignore
+.github
+
+.venv
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+data
+notebooks
+docs
+tests
+
+.ipynb_checkpoints
+
+*.ipynb
+
+.DS_Store
+
+# Exclude model-development artifacts by default.
+models/*
+
+# Keep only artifacts required for inference.
+!models/preprocessor.joblib
+!models/lightgbm.joblib
+!models/final_model_config.json

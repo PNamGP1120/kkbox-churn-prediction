@@ -50,3 +50,33 @@ TRAINING_RESULTS_PATH = MODELS_DIR / "validation_results.json"
 TRAINING_METADATA_PATH = MODELS_DIR / "training_metadata.json"
 
 RANDOM_STATE = 42
+
+EVALUATION_RESULTS_PATH = (
+    MODELS_DIR
+    / "evaluation_results.json"
+)
+
+THRESHOLD_ANALYSIS_PATH = (
+    MODELS_DIR
+    / "threshold_analysis.parquet"
+)
+
+FINAL_MODEL_CONFIG_PATH = (
+    MODELS_DIR
+    / "final_model_config.json"
+)
+
+VALIDATION_PREDICTIONS_PATH = (
+    PROCESSED_DIR
+    / "validation_predictions.parquet"
+)
+
+TEST_PREDICTIONS_PATH = (
+    PROCESSED_DIR
+    / "test_predictions.parquet"
+)
+
+FEATURE_IMPORTANCE_PATH = (
+    MODELS_DIR
+    / "feature_importance.parquet"
+)
